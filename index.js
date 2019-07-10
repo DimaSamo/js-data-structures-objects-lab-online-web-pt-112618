@@ -13,5 +13,5 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
 function deleteFromDriverByKey(driver, key){
   let newArray = Object.assing({}, driver)
   delete newArray[key]
-  return
+  return newArray
 }
